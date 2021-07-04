@@ -15,27 +15,27 @@
     * x_{valid}=(x_{valid}-mean(train_data))/std(train_data)
     * x_{test}=(x_{test}-mean(train_data))/std(train_data)
 ## 算法1：Isolation Forest
- train_acc:	         0.9137
- valid_noraml_acc:	 0.9146757679180887
- valid_unnoraml_acc: 0.9187877791027591
- test_noraml_acc:	   0.9150082236842105
- test_unnoraml_acc:	 0.994863381522136
+ * train_acc:	         0.9137
+ * valid_noraml_acc:	 0.9146757679180887
+ * valid_unnoraml_acc: 0.9187877791027591
+ * test_noraml_acc:	   0.9150082236842105
+ * test_unnoraml_acc:	 0.994863381522136
 ## 算法2：OneClassSVM
- train_acc:	         0.89985
- valid_noraml_acc:	 0.8976109215017065
- valid_unnoraml_acc: 0.9988486368682923
- test_noraml_acc:	   0.8993421052631579
- test_unnoraml_acc:	 0.9998791699783043
+ * train_acc:	         0.89985
+ * valid_noraml_acc:	 0.8976109215017065
+ * valid_unnoraml_acc: 0.9988486368682923
+ * test_noraml_acc:	   0.8993421052631579
+ * test_unnoraml_acc:	 0.9998791699783043
 ## 算法3：AutoEncoder
 * 全连接网络模型
-   train_acc:       0.9791319722856144 
-   val_acc:         0.9455569719149636
-   test_acc_normal: 0.9792763157894737
-   test_acc_unnormal: 0.9934375872661267
-   divide1=         2.4918280440836575
+   * train_acc:       0.9791319722856144 
+   * val_acc:         0.9455569719149636
+   * test_acc_normal: 0.9792763157894737
+   * test_acc_unnormal: 0.9934375872661267
+   * divide1=         2.4918280440836575
 * 卷积神经网络模型
- train_acc:         0.9940993852669668
- val_acc:           0.9394711953616514
- test_acc_normal:   0.9951069078947369
- test_acc_unnormal: 0.9341932850729276
+  * train_acc:         0.9940993852669668
+  * val_acc:           0.9394711953616514
+  * test_acc_normal:   0.9951069078947369
+  * test_acc_unnormal: 0.9341932850729276
 
