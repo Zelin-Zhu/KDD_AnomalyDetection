@@ -28,7 +28,7 @@
  test_unnoraml_acc:	 0.9998791699783043
 ## 算法3：AutoEncoder
 * 全连接网络模型
-   train_acc:       0.9791319722856144
+   train_acc:       0.9791319722856144 
    val_acc:         0.9455569719149636
    test_acc_normal: 0.9792763157894737
    test_acc_unnormal: 0.9934375872661267
