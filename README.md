@@ -11,7 +11,7 @@
     对离散值列进行序列编码
 * 标准化   
     计算训练集中非0-1的列均值mean和方差std，各数据集数据x=(x-mean)/std
-    * x_{trian}=(x_{train}-mean(train_data))/std(train_data)
+    * $x_{trian}=(x_{train}-mean(train_data))/std(train_data)$
     * x_{valid}=(x_{valid}-mean(train_data))/std(train_data)
     * x_{test}=(x_{test}-mean(train_data))/std(train_data)
 ## 算法1：Isolation Forest
