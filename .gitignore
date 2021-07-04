@@ -1,0 +1,5 @@
+test.py  //忽略这个test.py文件
+BiTree.py   //忽略这个BiTree.py文件
+data/*           //忽略data下的所有文件
+KDDdata/*.txt    //忽略KDDdata目录下的.txt文件
+KDDdata/*.csv   //忽略KDDdata目录下的.csv文件
